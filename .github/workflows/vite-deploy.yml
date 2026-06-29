@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: vite-project/package-lock.json
+          cache-dependency-path: nextjs-project/package-lock.json
       - name: Install dependencies
         run: npm ci
       - name: Build
@@ -48,7 +48,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: vite-project/dist
+          path: nextjs-project/out
 
   deploy:
     needs: build
