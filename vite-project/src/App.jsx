@@ -16,7 +16,8 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>hihihaha</h1>
+          <h1>Click</h1>
+          <img src="https://thfvnext.bing.com/th/id/OIP.PVkm0RPGxJ9uUsrORlSktwHaNK?w=187&h=333&c=7&r=0&o=7&cb=thfvnextfalcon3&pid=1.7&rm=3" alt="" />
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
